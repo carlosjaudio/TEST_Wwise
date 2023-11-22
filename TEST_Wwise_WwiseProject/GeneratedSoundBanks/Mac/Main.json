@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{4AE3EF16-CACB-4269-A9CC-D8C8C31122EF}",
+    "Language": "SFX",
+    "Hash": "{EA03FE5F-D6CE-2668-459C-831F665493F8}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "31821112",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEST\\Tone Generator",
+       "GUID": "{F69DD042-24F8-4581-9EEB-A639FD546563}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3187507146",
+      "Name": "Play_TEST",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TEST",
+      "GUID": "{5C6464E2-3A5C-4CAA-A9ED-131EDEE463E3}",
+      "DurationType": "Infinite",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "31821112"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{942E54F4-717A-A28B-A96B-283453F78D2F}"
+ }
+}

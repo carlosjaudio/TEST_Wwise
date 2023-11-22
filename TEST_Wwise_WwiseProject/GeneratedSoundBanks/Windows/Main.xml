@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{4AE3EF16-CACB-4269-A9CC-D8C8C31122EF}" Language="SFX" Hash="{EA03FE5F-D6CE-2668-459C-831F665493F8}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="31821112" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\TEST\Tone Generator" GUID="{F69DD042-24F8-4581-9EEB-A639FD546563}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="3187507146" Name="Play_TEST" ObjectPath="\Events\Default Work Unit\Play_TEST" GUID="{5C6464E2-3A5C-4CAA-A9ED-131EDEE463E3}" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="31821112"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EE8F1287-5CF6-5426-EC9E-B352CB051EDE}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,26 @@
+{
+ "PluginInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "PluginLibs": [
+   {
+    "LibName": "Wwise Tone Generator",
+    "LibId": "6684674",
+    "Type": "Source",
+    "DLL": "AkToneGen",
+    "StaticLib": "AkToneSource"
+   },
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   }
+  ],
+  "FileHash": "{3D76BBD5-943A-1D09-A431-81D14FFAC05F}"
+ }
+}
