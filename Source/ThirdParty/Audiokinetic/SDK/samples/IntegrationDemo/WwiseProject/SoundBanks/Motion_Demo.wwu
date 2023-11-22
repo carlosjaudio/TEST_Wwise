@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{444FDFE3-6B51-4900-8416-EE8D2AA1F012}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Motion_Demo" ID="{444FDFE3-6B51-4900-8416-EE8D2AA1F012}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Motion" ID="{B9AB4D11-47AA-4D95-999C-29BCE72BD166}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DoorSliding" ID="{DD5A0DE8-329F-40A9-A66C-01E349FF2A3C}" WorkUnitID="{1A626A2E-9123-4A84-BF4D-A973F9D6E54C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_All" ID="{43B2BBAE-8E7C-4353-B828-58A71F39A8C5}" WorkUnitID="{9A702AE6-A6FC-40E6-94AF-6E7972F20503}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Resume_All" ID="{04B746FC-E772-456C-B9B3-F838697CEE5B}" WorkUnitID="{9A702AE6-A6FC-40E6-94AF-6E7972F20503}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GunFire" ID="{99433EED-F237-4BA2-AC41-2EC005E6F875}" WorkUnitID="{1A626A2E-9123-4A84-BF4D-A973F9D6E54C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_All" ID="{B8A45821-9785-4F22-8A0A-BD1B9AC317F7}" WorkUnitID="{9A702AE6-A6FC-40E6-94AF-6E7972F20503}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
